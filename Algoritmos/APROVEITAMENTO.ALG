@@ -6,7 +6,7 @@ procedimento Aproveitamento (a, b: real)
 var m: real
 inicio
    m <- (a + b) / 2
-   Escreval("Média: ", m:2:1)
+   Escreval("M?dia: ", m:2:1)
    Escolha(m)
    Caso 0, 1, 2, 3, 4
       Escreva("Aproveitamento: F")
