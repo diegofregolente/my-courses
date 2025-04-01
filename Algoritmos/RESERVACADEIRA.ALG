@@ -1,24 +1,40 @@
-algoritmo "ReservaCadeira"
+algoritmo "LugaresCinema"
+
+//globais
 var
-fileira: vetor[1..10] de caractere
-c: inteiro
-resp: caractere
+   B: vetor[1..19] de Caractere
+   l, cad: Inteiro
+   r: Caractere
+
+Procedimento MostraFileira()
+// variavel para o procedimento (escopo)
+var i: Inteiro
+//inicio procedimento
 inicio
-      fileira[1] <- "B 1"
-      fileira[2] <- "B 2"
-      fileira[3] <- "B 3"
-      fileira[4] <- "B 4"
-      fileira[5] <- "B 5"
-      fileira[6] <- "B 6"
-      fileira[7] <- "B 7"
-      fileira[8] <- "B 8"
-      fileira[9] <- "B 9"
-      fileira[10] <- "B 10"
-      Para c <- 1 ate 10 faca
-           escreva("[ ",fileira[c], " ]")
-      FimPara
-      Repita
-      escreva("Deseja continuar [S/N]? ")
-      leia(resp)
-      Ate ((maiusc(resp) = "N"))
+   Para i <- 1 ate 10 faca
+      Se (B[i] = "") entao
+         Escreva ("[ B", i:2, " ]")
+      senao
+         Escreva ("[ --- ]")
+      FimSe
+   FimPara
+   EscrevaL()
+   EscrevaL("------------------------------------------------------------------------")
+FimProcedimento
+
+inicio
+   Repita
+      LimpaTela
+      MostraFileira()
+      Escreva("Reservar a cadeira: B")
+      Leia(cad)
+      Se (B[cad]="") entao
+         B[cad] <- "X"
+         EscrevaL("Cadeira B", cad, " RESERVADA!")
+      Senao
+         EscrevaL("ERRO: Lugar Ocupado!")
+      FimSe
+      Escreva("Quer reservar outro? [S/N] ")
+      Leia(r)
+   Ate (r = "N")
 fimalgoritmo
