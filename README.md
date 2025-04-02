@@ -1,5 +1,4 @@
-# 2025
- Beginning of all
+Focused on back-end development
 
-Choosen Language: JAVA <br>
-BD: PGSQL/MYSQL
+First Course: Algorithm [40 Hours] - By cursoemvideo - (Completed)
+Second Course: Java COMPLETE Object Oriented Programming By Nelio Alves (In Progress)
