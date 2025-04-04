@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2025.iml" filepath="$PROJECT_DIR$/.idea/2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algoritmos/Algoritmos.iml" filepath="$PROJECT_DIR$/Algoritmos/Algoritmos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/curso/Exercicios sobre Estrutura Condicional/Exercicios sobre Estrutura Condicional.iml" filepath="$PROJECT_DIR$/curso/Exercicios sobre Estrutura Condicional/Exercicios sobre Estrutura Condicional.iml" />
       <module fileurl="file://$PROJECT_DIR$/curso/Exercicios_sobre_Estrutura_Sequencial/Exercicios_sobre_Estrutura_Sequencial.iml" filepath="$PROJECT_DIR$/curso/Exercicios_sobre_Estrutura_Sequencial/Exercicios_sobre_Estrutura_Sequencial.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/curso/curso.iml" filepath="$PROJECT_DIR$/curso/curso.iml" />
