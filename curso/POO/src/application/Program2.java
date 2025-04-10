@@ -22,19 +22,17 @@ public class Program2 {
 
         double total = prod.TotalValueInStock();
 
-        System.out.printf("Product data: %s, $ %.2f, %d units, Total: %.2f %n", prod.name, prod.price, prod.quantity, total);
+        System.out.println(prod);
 
         System.out.print("Enter the number of products to be added in stock: ");
         int add = sc.nextInt();
         prod.AddProducts(add);
-        total = prod.TotalValueInStock();
-        System.out.printf("Product data: %s, $ %.2f, %d units, Total: %.2f %n", prod.name, prod.price, prod.quantity, total);
+        System.out.println(prod);
 
         System.out.print("Enter the number of products to be removed in stock: ");
         int remove = sc.nextInt();
         prod.RemoveProduct(remove);
-        total = prod.TotalValueInStock();
-        System.out.printf("Product data: %s, $ %.2f, %d units, Total: %.2f %n", prod.name, prod.price, prod.quantity, total);
+        System.out.println(prod);
 
         sc.close();
     }
