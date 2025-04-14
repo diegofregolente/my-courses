@@ -13,13 +13,13 @@ public class exercicioList {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        List<Employee> list = new ArrayList<>();
+        List<Employee> listOfEmployee = new ArrayList<>();
 
         System.out.println("How many employees will be registered: ");
         int n = sc.nextInt();
 
         for (int i = 0; i < n; i++) {
-            System.out.printf("Employee #%d: \n", i+1);
+            System.out.printf("Employee #%d: \n", i + 1);
             System.out.println("ID: ");
             Integer id = sc.nextInt();
             System.out.println("NAME: ");
@@ -29,24 +29,29 @@ public class exercicioList {
             Double salary = sc.nextDouble();
 
             Employee emp = new Employee(id, name, salary);
-            list.add(emp);
-        }
 
+            listOfEmployee.add(emp);
+        }
+/*
+        System.out.println(listOfEmployee.get(0));
+    }
+}
+*/
         System.out.println("Enter the employee id that will have salary increase:");
         int idSalary = sc.nextInt();
-        Integer pos = position(list, idSalary);
+        Integer pos = position(listOfEmployee, idSalary);
         if (pos == null) {
             System.out.println("THIS ID DOES NOT EXIST!");
         } else {
             System.out.println("Enter the percentagem: ");
             double percent = sc.nextDouble();
-            list.get(pos).increaseSalary(percent);
+            listOfEmployee.get(pos).increaseSalary(percent);
         }
 
         System.out.println();
         System.out.println("List of Employee:");
-        for (Employee emp: list) {
-
+        for (Employee emp: listOfEmployee) {
+            System.out.println(emp);
         }
         sc.close();
 
