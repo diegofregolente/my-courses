@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dio.diego.java" />
+        <module name="me.dio.web.logica" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Dio" target="24" />
+      <module name="dio.diego.syntaxejava" target="24" />
     </bytecodeTargetLevel>
   </component>
 </project>
