@@ -8,7 +8,17 @@
         <option value="$PROJECT_DIR$/java-anatomia-classes/pom.xml" />
         <option value="$PROJECT_DIR$/me.dio.web.logica/pom.xml" />
         <option value="$PROJECT_DIR$/me.dio.web.arrays/pom.xml" />
+        <option value="$PROJECT_DIR$/me.dio.web.metodos/pom.xml" />
+        <option value="$PROJECT_DIR$/youtube.loiane.groner.estrutura.algoritmos/pom.xml" />
+        <option value="$PROJECT_DIR$/estruturadados-algoritmos-java/pom.xml" />
+        <option value="$PROJECT_DIR$/curso-java-basico/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/me.dio.web.arrays/pom.xml" />
+        <option value="$PROJECT_DIR$/youtube.loiane.groner.estrutura.algoritmos/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="24" project-jdk-type="JavaSDK">

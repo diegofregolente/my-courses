@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dio.bootcamp.java</groupId>
-    <artifactId>me.dio.web.arrays</artifactId>
+    <artifactId>estruturadados-algoritmos-java</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

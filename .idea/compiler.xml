@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="me.dio.web.arrays" />
+        <module name="me.dio.web.metodos" />
+        <module name="estruturadados-algoritmos-java" />
+        <module name="curso-java-basico" />
         <module name="me.dio.web.logica" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Dio" target="24" />
       <module name="dio.diego.syntaxejava" target="24" />
+      <module name="me.dio.web.arrays" target="24" />
+      <module name="youtube.loiane.groner.estrutura.algoritmos" target="24" />
     </bytecodeTargetLevel>
   </component>
 </project>
