@@ -10,6 +10,7 @@
         <module name="estruturadados-algoritmos-java" />
         <module name="curso-java-basico" />
         <module name="me.dio.web.logica" />
+        <module name="DATA_HORA" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
