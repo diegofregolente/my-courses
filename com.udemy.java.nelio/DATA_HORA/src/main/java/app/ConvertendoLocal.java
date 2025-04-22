@@ -9,10 +9,12 @@ import java.time.format.DateTimeFormatter;
 public class ConvertendoLocal {
     public static void main(String[] args) {
 
+        // instanciando com parse
         LocalDate d04 = LocalDate.parse("2022-07-20");
         LocalDateTime d05 = LocalDateTime.parse("2022-07-02T01:30:26");
         Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
 
+        // criando patterns para formatacao de data/hora usando DateZone e padrões do datetimneformatter(iso_date / iso_instant)
         DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
         DateTimeFormatter fmt3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault());
