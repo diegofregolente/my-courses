@@ -10,12 +10,13 @@
         <module name="estruturadados-algoritmos-java" />
         <module name="curso-java-basico" />
         <module name="me.dio.web.logica" />
-        <module name="DATA_HORA" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DATA_HORA" target="24" />
       <module name="Dio" target="24" />
       <module name="dio.diego.syntaxejava" target="24" />
+      <module name="ENUMERACOES" target="24" />
       <module name="me.dio.web.arrays" target="24" />
       <module name="youtube.loiane.groner.estrutura.algoritmos" target="24" />
     </bytecodeTargetLevel>
