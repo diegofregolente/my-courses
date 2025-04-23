@@ -14,9 +14,18 @@ public class GlobalParaLocal {
         Instant dataGlobal = Instant.parse("2025-04-23T12:12:33Z");
 
         // Convertendo GLOBAL > LOCAL
+        LocalDateTime dataGlobalSystemDefault = LocalDateTime.ofInstant(dataGlobal, ZoneId.systemDefault());
+        LocalDateTime dataGlobalTimeZonePortugal = LocalDateTime.ofInstant(dataGlobal, ZoneId.of("Portugal"));
+        System.out.println(dataGlobalSystemDefault);
+        System.out.println(dataGlobalTimeZonePortugal);
 
-        LocalDate dataGlobalTime = LocalDate.ofInstant(dataGlobal, ZoneId.systemDefault());
-        System.out.println(dataGlobalTime);
+        // Pegando dados individuais.
+
+        System.out.println("Dia do Mês: " + dataLocal.getDayOfMonth());
+        System.out.println("Dia do Anual: " + dataLocal.getDayOfYear());
+        System.out.println("Dia do Semanal(String): " + dataLocal.getDayOfWeek());
+        System.out.println("Ano: " + dataLocal.getYear());
+        System.out.println("Mês: " + dataLocal.getMonthValue());
 
     }
 }
