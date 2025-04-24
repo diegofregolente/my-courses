@@ -14,10 +14,12 @@
         <option value="$PROJECT_DIR$/curso-java-basico/pom.xml" />
         <option value="$PROJECT_DIR$/com.udemy.java.nelio/DATA-HORA/pom.xml" />
         <option value="$PROJECT_DIR$/com.udemy.java.nelio/Data_Hora/pom.xml" />
+        <option value="$PROJECT_DIR$/com.udemy.java.nelio/untitled/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/com.udemy.java.nelio/Intermediarty/pom.xml" />
         <option value="$PROJECT_DIR$/me.dio.web.arrays/pom.xml" />
         <option value="$PROJECT_DIR$/youtube.loiane.groner.estrutura.algoritmos/pom.xml" />
       </set>
