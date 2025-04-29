@@ -11,6 +11,7 @@
         <module name="untitled" />
         <module name="curso-java-basico" />
         <module name="me.dio.web.logica" />
+        <module name="Inheritance" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
