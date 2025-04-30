@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="me.dio.web.metodos" />
         <module name="estruturadados-algoritmos-java" />
         <module name="untitled" />
         <module name="curso-java-basico" />
-        <module name="me.dio.web.logica" />
         <module name="Inheritance" />
+        <module name="me.dio.web.metodos" />
+        <module name="me.dio.web.logica" />
+        <module name="Polymorphism" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
