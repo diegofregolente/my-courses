@@ -16,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ClassesAbstratas" target="24" />
       <module name="DATA_HORA" target="24" />
       <module name="Dio" target="24" />
       <module name="dio.diego.syntaxejava" target="24" />

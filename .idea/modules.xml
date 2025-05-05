@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2025.iml" filepath="$PROJECT_DIR$/.idea/2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/Abstract/Abstract.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/Abstract/Abstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Application/Application.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Application/Application.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/Composition/Composition.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/Composition/Composition.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Construtores/Construtores.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Construtores/Construtores.iml" />

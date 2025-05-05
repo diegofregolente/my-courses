@@ -1,6 +1,7 @@
 package entities;
 
 public class Product {
+
     private String name;
     private Double price;
 
@@ -14,12 +15,10 @@ public class Product {
     }
 
     public String getName() {
-
         return name;
     }
 
     public Double getPrice() {
-
         return price;
     }
 
@@ -33,7 +32,7 @@ public class Product {
         this.price = price;
     }
 
-    public String priceTag(String name, Double price) {
+    public String priceTag () {
         return name + " $ " + String.format("%¨.2f", price);
     }
 
