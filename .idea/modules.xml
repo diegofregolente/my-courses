@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2025.iml" filepath="$PROJECT_DIR$/.idea/2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Advanced/Advanced.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Advanced/Advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Application/Application.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Application/Application.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/ClassAbstract/ClassAbstract.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/ClassAbstract/ClassAbstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/Composition/Composition.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/Composition/Composition.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Construtores/Construtores.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Construtores/Construtores.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Encapsulamento/Encapsulamento.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Encapsulamento/Encapsulamento.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/Enumerate/Enumerate.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Intermediary/Enumerate/Enumerate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Advanced/Exception/Exception.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Advanced/Exception/Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Exemplo01.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Exemplo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Exercicio/Exercicio.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Beginner/POO/Exercicio/Exercicio.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.udemy.java.nelio/Beginner/Exercicios sobre Estrutura Condicional/Exercicios sobre Estrutura Condicional.iml" filepath="$PROJECT_DIR$/com.udemy.java.nelio/Beginner/Exercicios sobre Estrutura Condicional/Exercicios sobre Estrutura Condicional.iml" />
